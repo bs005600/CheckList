@@ -1,0 +1,856 @@
+body{
+  width:960px;
+  position:relative;
+  margin:auto;
+}
+
+ul{
+  list-style-type:none;
+}
+
+a:link{
+  text-decoration: none;
+  color:#264861 /*deep blue*/;
+}
+
+a.about:link{
+  color:#13a4bd /*turquoise*/;
+}
+
+a:visited{
+  color:#264861 /*deep blue*/;
+}
+
+
+a:hover{
+  color:#13a4bd /*turquoise*/;
+}
+
+a.link-top-google-appstore-home:hover{
+
+filter: drop-shadow(10px 10px 10px white);
+}
+
+a.link-top-apple-appstore-home:hover{
+filter: drop-shadow(10px 10px 10px white);
+}
+
+a.link-google-appstore:hover{
+filter: drop-shadow(10px 10px 10px black);
+}
+
+a.link-apple-appstore:hover{
+filter: drop-shadow(10px 10px 10px black);
+}
+
+a.link-email:hover{
+filter: drop-shadow(3px 3px 3px black);
+}
+
+#section-one{
+  width:960px;
+  height:52px;
+  position:relative;
+  top:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home{
+  position:absolute;
+  left:17px;
+  width:74px;
+  height:52px;
+}
+
+.about-about{
+  font-size: 14pt;
+  position:absolute;
+  top:17px;
+  left: 250px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#13a4bd /*turquoise*/;
+text-decoration:underline;
+}
+
+.about{
+  font-size: 14pt;
+  position:absolute;
+  top:17px;
+  left: 250px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#13a4bd /*turquoise*/;
+
+}
+
+.features{
+  font-size: 14pt;
+  position:absolute;
+  top:17px;
+  left: 500px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#264861 /*deep blue*/;
+
+}
+
+.features-features{
+  font-size: 14pt;
+  position:absolute;
+  top:17px;
+  left: 500px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#264861 /*deep blue*/;
+text-decoration:underline;
+}
+
+.search{
+  position: absolute;
+  top:16px;
+  left: 740px;
+  padding-left:15px;
+  width:200px;
+  height:25px;
+  border: solid #e4e4e4 /*light gray*/;
+  border-width: 1px;
+  border-radius: 20px;
+  font-size: 14pt;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#e4e4e4 /*light gray*/;
+
+}
+
+#section-two-home{
+  position:relative;
+  top:60px;
+
+}
+
+.fold{
+  width:922px;
+  height:731px;
+  position: absolute;
+  left:38px;
+}
+
+.Stop{
+  position: absolute;
+  top:170px;
+  left:80px;
+  font-size: 24pt;
+  width:367px;
+  height:54px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color:#6d6d6d /*deep gray*/;
+  z-index:6;
+}
+
+.Start{
+  position: absolute;
+  top:220px;
+  left:-50px;
+  text-align:right;
+  font-size: 28pt;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-radius: 20px;
+  width:500px;
+  height:79px;
+  font-family: poppins,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:#6d6d6d /*deep gray*/;
+  z-index:10;
+}
+
+.CheckList1{
+  color:#13a4bd /*turquoise*/;
+}
+
+.logo-home{
+  width:213px;
+  height:153px;
+  position: absolute;
+  top:291px;
+  left:570px;
+  z-index:8;
+}
+
+#calltoaction{
+  color:#264861 /*deep blue*/;
+  text-align:center;
+  font-size: 16pt;
+  width:482px;
+  height:25px;
+  position: absolute;
+  top:432px;
+  left:455px;
+  font-family: poppins,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  z-index:10;
+}
+
+.top-google-appstore-home{
+  width:380px;
+  height:70px;
+  position: absolute;
+  top:521px;
+  left:370px;
+  z-index:10;
+}
+
+.top-apple-appstore-home{
+  width:461px;
+  height:70px;
+  position: absolute;
+  top:521px;
+  left:590px;
+  z-index:10;
+}
+
+
+#section-four-home{
+  width:960px;
+  position:relative;
+}
+
+.desk-home{
+  width:541px;
+  height:721px;
+  position: absolute;
+  top:917px;
+  left:328px;
+
+}
+
+.check-home{
+  width:234px;
+  height:306px;
+  position: absolute;
+  top:1432px;
+  left:726px;
+}
+
+.Your{
+  padding-top:15px;
+  font-size:24pt;
+  color:#264861 /*deep blue*/;
+  border-radius: 20px;
+  font-family: poppins,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  z-index:6;
+  background-color: white;
+  width:420px;
+  height:263px;
+  border-radius: 20px;
+  position: absolute;
+  top:1133px;
+  left:165px;
+}
+
+.You{
+  line-height: 1.8;
+  margin-top:35px;
+  width:384px;
+  height:120px;
+  position: absolute;
+  top:1215px;
+  left:165px;
+  font-size: 12pt;
+  color:#6d6d6d /*deep gray*/;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index:6;
+}
+
+#section-five-home{
+width:960px;
+position:relative;
+}
+
+.professional-home{
+  width:620px;
+  height:413px;
+  position: absolute;
+  top:1887px;
+  left:88px;
+  z-index:4;
+}
+
+.notification-home{
+  width:208px;
+  height:auto;
+  position: absolute;
+  top:2155px;
+  z-index:7;
+}
+
+.Time{
+  padding:15px;
+  font-size:24pt;
+  color:#264861 /*deep blue*/;
+  border-radius: 20px;
+  font-family: poppins,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  z-index:6;
+  background-color: white;
+  width:435px;
+  height:193px;
+  border-radius: 20px;
+  position: absolute;
+  top:1959px;
+  left:408px;
+  z-index:6;
+}
+
+.dominate{
+  line-height: 1.8;
+  margin-top:35px;
+  width:440px;
+  height:73px;
+  position: absolute;
+  top:2040px;
+  left:425px;
+  font-size: 12pt;
+  color:#6d6d6d /*deep gray*/;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  z-index:10;
+}
+
+#section-six-home{
+width:960px;
+position: relative;
+}
+
+.devices-home{
+  width:620px;
+  height:439px;
+  position: absolute;
+  top:2573px;
+  left:220px;
+}
+
+.BeforeAppStore-home{
+  margin-top: 44px;
+  margin-bottom: 44px;
+  color:#264861 /*deep blue*/;
+  font-size: 23pt;
+  width:800px;
+  position: absolute;
+  top:3093px;
+  left:165px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.CheckList-home{
+  color:#13a4bd /*turquoise*/;
+}
+
+.google-appstore-home{
+  width:361px;
+  height:70px;
+  position: absolute;
+  top:3212px;
+  left:210px;
+}
+
+.apple-appstore-home{
+  width:461px;
+  height:70px;
+  position: absolute;
+  top:3212px;
+  left:430px;
+}
+
+
+
+#footer-home{
+  width:960px;
+  border-top:solid #6d6d6d /*deep gray*/;
+  border-width:1px;
+  position:relative;
+  top:3500px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.socials-home{
+  width:220px;
+  height:auto;
+  position:absolute;
+  top:-50px;
+}
+
+.Terms{
+  font-size: 8pt;
+  position:absolute;
+  left:8px;
+  color:#6d6d6d /*deep gray*/;
+}
+
+.Privacy{
+  font-size: 8pt;
+  position:absolute;
+  left:168px;
+  color:#6d6d6d /*deep gray*/;
+}
+
+.Contact{
+  font-size: 8pt;
+  position:absolute;
+  left:327px;
+  color:#6d6d6d /*deep gray*/;
+}
+
+p{
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#6d6d6d /*deep gray*/;
+}
+
+
+#section-three-features{
+  position:relative;
+  top:10px;
+}
+
+.home-mobile{
+  border-radius: 20px;
+  width:300px;
+  height:455px;
+  position: absolute;
+  top:344px;
+  left:90px;
+}
+
+.home-desktop{
+  border-radius: 20px;
+  width:444px;
+  height:345px;
+  position: absolute;
+  top:522px;
+  left:346px;
+}
+
+#Quick{
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#264861 /*deep blue*/;
+  font-size:24pt;
+  width:460px;
+  height:86px;
+  position: absolute;
+  top:340px;
+  left:410px;
+}
+
+.Quick{
+  line-height: 1.8;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:12pt;
+  width:434px;
+  height:51px;
+  position: absolute;
+  top:385px;
+  left:410px;
+  color:#6d6d6d /*deep gray*/;
+}
+/* end section three*/
+
+#section-four-features{
+  position:relative;
+  top:50px;
+}
+
+.task-mobile{
+  border-radius: 20px;
+  width:300px;
+  height:455px;
+  position: absolute;
+  top:1000px;
+  left:570px;
+}
+
+.task-desktop{
+  border-radius: 20px;
+  width:444px;
+  height:345px;
+  position: absolute;
+  top:1160px;
+  left:170px;
+}
+
+#Easy{
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24pt;
+  color:#264861 /*deep blue*/;
+  font-size:24pt;
+  width:434px;
+  height:51px;
+  position: absolute;
+  top:1000px;
+  left:110px;
+
+}
+
+.Easy{
+  line-height: 1.8;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width:460px;
+  height:115px;
+  position: absolute;
+  top:1055px;
+  left:110px;
+  color:#6d6d6d /*deep gray*/;
+  font-size: 12pt;
+
+}
+/* end section four*/
+
+#section-five-features{
+  position:relative;
+  top:50px;
+}
+
+.check{
+  width:343px;
+  height:343px;
+  position: absolute;
+  top:1415px;
+}
+
+.calendar-mobile{
+  border-radius: 20px;
+  width:300px;
+  height:455px;
+  position: absolute;
+  top:1730px;
+  left:90px;
+}
+
+.calendar-desktop{
+  border-radius: 20px;
+  width:444px;
+  height:345px;
+  position: absolute;
+  top:1925px;
+  left:344px;
+}
+
+#Clear{
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24pt;
+  color:#264861 /*deep blue*/;
+  font-size:24pt;
+  width:388px;
+  height:51px;
+  position: absolute;
+  top:1725px;
+  left:410px;
+}
+
+.Clear{
+  line-height: 1.8;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width:460px;
+  height:115px;
+  position: absolute;
+  top:1775px;
+  left:410px;
+  color:#6d6d6d /*deep gray*/;
+  font-size: 12pt;
+
+}
+/* end section five*/
+
+#section-six-features{
+  position:relative;
+  left:90px;
+}
+
+.notification-features{
+  width:305px;
+  height:291px;
+  position: absolute;
+  top:2204px;
+  left:617px;
+}
+
+.devices-features{
+  width:620px;
+  height:439px;
+  position: absolute;
+  top:2523px;
+  left:108px;
+
+}
+
+.BeforeAppStore-features{
+  margin-top: 44px;
+  margin-bottom: 44px;
+  color:#264861 /*deep blue*/;
+  font-size: 20pt;
+  width:800px;
+  height:37px;
+  position: absolute;
+  top:3043px;
+  left:108px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.CheckList-features{
+  color:#13a4bd /*turquoise*/;
+}
+
+.google-appstore-features{
+  margin: 44px;
+  width:461px;
+  height:70px;
+  position: absolute;
+  top:3133px;
+  left:48px;
+  }
+
+  .apple-appstore-features{
+    margin: 44px;
+    width:461px;
+    height:70px;
+    position: absolute;
+    top:3133px;
+    left:378px;
+    }
+
+#footer-features{
+  width:960px;
+  border-top:solid #6d6d6d /*deep gray*/;
+  border-width:1px;
+  position:absolute;
+  top:3534px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.socials-features{
+  width:220px;
+  height:auto;
+  position:absolute;
+  top:-50px;
+}
+
+#section-two{
+  position:relative;
+  top:13px;
+}
+
+h1{
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 54pt;
+  position:absolute;
+  top:50px;
+  color:#264861 /*deep blue*/;
+}
+.underline{
+  position:absolute;
+  top:183px;
+  border-radius:20px;
+}
+/* end section two*/
+
+#section-three-about{
+  position:relative;
+}
+
+.selfie{
+  width:390px;
+  height:382px;
+  position:absolute;
+  top:300px;
+}
+
+#name{
+  font-size: 40pt;
+  position: absolute;
+  top:280px;
+  left:397px;
+  color:#13a4bd /*turquoise*/;
+  font-family: poppins,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#credentials{
+  font-size: 10pt;
+  position: absolute;
+  top:355px;
+  left:397px;
+  color:#264861 /*deep blue*/;
+  font-family: poppins,sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p.bio{
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 10pt;
+  width:440px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#6d6d6d /*deep gray*/;
+  position: absolute;
+  top:400px;
+  left:393px;
+}
+
+/* end section three*/
+
+
+#section-four-about{
+  position:relative;
+  top:710.15px;
+}
+
+.Customer{
+  position: relative;
+  top:10px;
+  font-size: 22pt;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#264861 /*deep blue*/;
+}
+
+#contact-about{
+  position:relative;
+}
+
+.contact-title{
+  position: absolute;
+  top:10px;
+  line-height: 1.5;
+  font-size: 18pt;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#264861 /*deep blue*/;
+
+}
+
+.contact-info{
+  line-height: 1.5;
+  color:#e4e4e4 /*light gray*/;
+  font-size: 16pt;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#6d6d6d /*deep gray*/;
+}
+
+.mail{
+  padding:10px;
+  width:35px;
+  filter: drop-shadow(1px 1px 1px gray);
+}
+
+a.link-email:link{
+width:55px;
+}
+/* end section four*/
+
+#section-five-about{
+  position:relative;
+}
+
+.Connect-about{
+  position: absolute;
+  top:1017px;
+  font-size: 16pt;
+  width:220px;
+  height:59px;
+  color:#13a4bd /*turquoise*/;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.social-badges-about{
+  position: absolute;
+  top:1110px;
+  left:-2px;
+  width:280px;
+  height:auto;
+}
+
+.logo-about{
+  position: absolute;
+  top:1010px;
+  left:830px;
+  height:66px;
+}
+
+.google-appstore-about{
+  width:316px;
+  height:66px;
+  position:absolute;
+  top:1105px;
+  left:487px;
+}
+
+.apple-appstore-about{
+  width:316px;
+  height:66px;
+  position:absolute;
+  top:1105px;
+  left:727px;
+}
+
+#footer-about{
+  width:960px;
+  border-top:solid #6d6d6d /*deep gray*/;
+  border-width:1px;
+  position:absolute;
+  top:1424px;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
